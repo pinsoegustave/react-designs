@@ -1,6 +1,8 @@
 import { BiTrash } from "react-icons/bi";
-import Modal from "./Modal";
+import Modal from "./Components/Modal";
 import { useState } from "react";
+import Carousel from "./Components/Carousel";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export default function App() {
 
@@ -32,6 +34,8 @@ export default function App() {
 
         </div>
         </Modal>
+        <Carousel />
+        <img src="/src/assets/istockphoto.jgp" alt="" />
     </main>
   )
 }
