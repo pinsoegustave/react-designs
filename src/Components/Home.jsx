@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { BiTrash } from 'react-icons/bi';
+import Modal from './Modal.jsx';
+import Carousel from './Carousel.jsx';
 
 const Home = () => {
 
